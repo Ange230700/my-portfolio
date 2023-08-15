@@ -1,13 +1,14 @@
 :root {
-  --bg-body: #151515;
-  --contact-bg: #242424;
-  --accent: #4ee1a0;
-  --text1: #ffffff;
-  --text2: #d9d9d9;
-  --invalid: #ff6f5b;
+  --bg-body: hsl(0, 0%, 8%);
+  --contact-bg: hsl(0, 0%, 14%);
+  --accent: hsl(153, 71%, 59%);
+  --text1: hsl(0, 0%, 100%);
+  --text2: hsl(0, 0%, 85%);
+  --invalid: hsl(7, 100%, 68%);
+  --fs-body: 1.125rem;
 }
 
-html {
+html {  
   box-sizing: border-box;
   font-size: 100%;
 }
@@ -15,10 +16,14 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: inh--fs-body
 }
 
 body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text1);
+  font-size: var(--fs-body);
+  line-height: 1.56;
 }
