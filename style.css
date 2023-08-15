@@ -1,3 +1,5 @@
+@import url(/header.css);
+
 :root {
   --bg-body: hsl(0, 0%, 8%);
   --contact-bg: hsl(0, 0%, 14%);
