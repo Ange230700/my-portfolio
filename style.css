@@ -35,8 +35,35 @@ body {
   line-height: 1.56;
 }
 
-.wrapper{
-    width: calc(100% - 2rem);
-    max-width: var(--container);
-    margin-inline: auto; 
+.wrapper {
+  width: calc(100% - 2rem);
+  max-width: var(--container);
+  margin-inline: auto;
+}
+
+i {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 37.5em) {
+  .wrapper {
+    width: calc(100% - 3.75rem);
+  }
+
+  i {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .wrapper {
+    width: calc(100% - 5.625rem);
+  }
+
+  i {
+    width: 40px;
+    height: 40px;
+  }
 }
