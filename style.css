@@ -12,6 +12,7 @@
   --fs-40: 2.5rem;
   --fs-32: 2rem;
   --fs-24: 1.5rem;
+  --container: 69.375rem;
 }
 
 html {
@@ -32,4 +33,10 @@ body {
   color: var(--text1);
   font-size: var(--fs-18);
   line-height: 1.56;
+}
+
+.wrapper{
+    width: calc(100% - 2rem);
+    max-width: var(--container);
+    margin-inline: auto; 
 }
